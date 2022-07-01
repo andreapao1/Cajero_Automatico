@@ -40,9 +40,6 @@ function validar() {
         document.getElementById('montocantidad').value = (usuarios[2][3]);
     }
 
-    let logout1 = document.getElementById("Salir")
-    logout1.classList.remove('logout')
-
 }
 
 
@@ -79,12 +76,7 @@ function mostrarError(mensaje) {
 }
 
 
-let backsect = document.getElementById('btnregresar')
 
-function back(){
-    let capa = document.getElementById('caj')
-    document.getElementById(capa).style.display = 'flex';
-}
 
 
 
