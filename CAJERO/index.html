@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cajero Automático</title>
+</head>
+<body>
+    <div class="cajeroSect" id="secciones">
+        <div class="cajero" id="caj">
+    <h1 class="caj-title">Ingresar Datos</h1>
+    <input class="btn-show" type="text" id="user" placeholder="Usuario" required>
+    <input class="btn-show" type="password" id="password" placeholder="Contraseña">
+    <button class="btn-enviar" id="btn-enviar" onclick="validar()">Enviar</button>
+</div>
+<div id="section-btn" class="oculto">
+    <div class="btn-mar">
+
+<h1>Bienvenido</h1>
+
+<div class="flex-input">
+<input class="caja-texto" id="deposito" name="name-deposito" type="number">
+<button id="btndepo" onclick="depositar()">Depositar</button>
+</div>
+
+<div class="flex-input">
+<input id="retiro" class="caja-texto" type="number" name="name-retiro">
+<button id="btnretiro" onclick="retirar()">Retirar</button>
+</div>
+
+<div class="montoTotal">
+    <h2>Monto Total</h2>
+    <input type="number" name="" id="montocantidad">
+</div>
+</div>
+
+<button id="btnregresar" class="backbtn" onclick="back()">Regresar</button>
+</div>
+
+<span id="error"></span>
+
+    <script src="index.js"></script>
+</body>
+</html>

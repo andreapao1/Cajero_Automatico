@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(101, 101, 210);
+}
+
+
+.cajeroSect{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #82bbe2;
+    width: 500px;
+    height: 500px;
+    margin-top: 90px;
+    border-radius: 20px;
+    margin-left: 550px;
+    filter:alpha(opacity=70);
+}
+
+.cajero{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.cajero .btn-show{
+    margin-top: 16px;
+    margin-left: 125px;
+    width: 200px;
+    height: 50px;
+}
+
+
+.cajero input{
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.caj-atm{
+    text-align: center;
+   color: #154360;
+   font-size: 48px;
+   letter-spacing: 2px;
+   margin-bottom: 30px;
+}
+
+.caj-title{
+    text-align: center;
+   color: #21618C;
+   font-size: 48px;
+   letter-spacing: 2px;
+   margin-bottom: 45px;
+}
+
+.btn-show{
+    height: 40px;
+    width: 80px;
+    margin-left: 100px;
+    padding-left: 7px;
+}
+
+
+.btn-enviar{
+    margin-top: 30px;
+    margin-left: 230px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.logout:hover{
+    background-color: rgb(91, 32, 194);
+}
+
+
+.cajero button:hover{
+    background-color: rgb(171, 202, 192);
+}
+
+.oculto{
+    display: none;
+    margin-left: 0px;
+}
+
+
+
+.btn-mar h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 46px;
+}
+
+.caja-texto{
+    margin-left: 140px;
+    width: 90px;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-right: 4px;
+}
+
+.montoTotal{
+    margin-left: 140px;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.montoTotal h2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.montoTotal input{
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.btn-mar button{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.btn-mar button:hover{
+    color: rgb(214, 34, 34);
+    background-color: antiquewhite;
+}
+
+.backbtn{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 15px;
+    width: 85px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.backbtn:hover{
+    font-weight: 100px;
+    color: rgb(4, 3, 4);
+    background-color: rgb(107, 101, 119);
+}
+
+.ocultar-input{
+    display: none;
+}
+
+
